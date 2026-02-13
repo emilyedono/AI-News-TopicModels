@@ -11,7 +11,7 @@
 	- `Notebooks/Section_7_Topic_Modeling.ipynb` — Standalone, runnable notebook with the Topic Modeling section I developed (recommended for portfolio review).
 - **Environment:** `requirements.txt` is included for reproducibility.
 
-**My Role (highlight):**
+**My Role:**
 - **Topic modeling:** I led the BERTopic-based topic modeling (Section 7). I
 	- implemented BERTopic workflows to discover themes across all outlets,
 	- created a balanced dataset subset and keyphrase extraction using KeyBERT,
