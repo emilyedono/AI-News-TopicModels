@@ -17,36 +17,6 @@
 	- created a balanced dataset subset and keyphrase extraction using KeyBERT,
 	- produced visualizations (topic tables, word clouds, and bar charts) for portfolio presentation.
 
-**Quick Start**
-- Clone the repo and change directory:
-
-	```bash
-	git clone <repo-url>
-	cd AI-News-TopicModels
-	```
-
-- Create and activate the virtual environment (macOS / zsh):
-
-	```bash
-	python3 -m venv .venv
-	source .venv/bin/activate
-	```
-
-- Install dependencies and enable the Jupyter kernel (already included in this repo):
-
-	```bash
-	pip install -r requirements.txt
-	# optional: install kernel with a friendly name
-	python -m ipykernel install --user --name ai-news-venv --display-name "AI-News-TopicModels (.venv)"
-	```
-
-- Run the standalone topic modeling notebook (recommended):
-
-	```bash
-	jupyter lab  # or `jupyter notebook`
-	# then open `Notebooks/Section_7_Topic_Modeling.ipynb`
-	```
-
 **Notes & Assumptions**
 - The notebooks expect the datasets at `Data/newsapi_keyword_articles.csv` (already present). If you regenerate the dataset via NewsAPI, ensure the same column names (`title`, `description`, `source`, `publishedAt`, etc.).
 
